@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#logo{
+    background-color: #007bff;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: lightslategray;
+    border-radius: 10px;
+    
+}
+nav a{
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+}
+.logo h3{
+    color: #000;
+}
+.home-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.home-content h1{
+    font-weight: 900;
+    font-size: 70px;
+}
+.circle-img{
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+
+}
+.profile{
+    height: 500px;
+    background-image: url(images/circle-logo.webp);
+   background-repeat: no-repeat;
+   /* background-position: center -170px;
+   background-size: 320px ;  */
+   background-position: center;
+   background-size: 400px;
+   
+}
+.profile img{
+    margin-top: -200px;
+    height: 600px;
+    width: 400px;
+}
+.social-media{
+    margin:50px 0 0 90px;
+}
+.social-media i{ 
+    padding-right: 20px;
+    font-size: 40px;
+}
+
+/*----------- home section end ----------*/
+
+/*-------------- about section start----------- */
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.about-content{
+    width: 500px;
+}
+.about-content h1,
+.skill-head h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+.about-content p{
+    text-align: justify;
+}
+/*-------------- about section end----------- */
+
+
+/*-------------- skills section start----------- */
+.skills-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+
+}
+.skill-content{
+    width: 400px;
+    margin-top: 40px;
+}
+.skill-content p{
+    text-align: justify;
+}
+.progress{
+    width: 400px;
+}
+.progress-section .progress1{
+    margin-top: 20px;
+}
+.progress-section{
+    margin-top: 40px;
+}
+
+
+/*-------------- skills section end----------- */
