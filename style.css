@@ -123,13 +123,14 @@ nav a:hover{
 
 /*------ Responsive css -----*/
 
-@media (max-width: 600px){
+@media (max-width: 575px){
    
-    .navbar{
-        width:103%;
+    .home-content h1{
+        font-size: 60px;
     }
     .container{
         width: 100%;
+        padding: 30px;
     }
     .home-section{
         flex-direction: column;
@@ -144,11 +145,16 @@ nav a:hover{
     }
     .about-section{
         flex-direction: column-reverse;
-        margin-top: 600px;
+        margin-top: 500px;
     }
     .about-content{
-        margin: 0 auto;
-        padding: 30px;
+        text-align: center;
+
+    }
+    .about-content p{
+        text-align: justify;
+        padding: 80px;
+        margin-top: -40px;
     }
    
     .skills-section{
@@ -161,14 +167,24 @@ nav a:hover{
     .social-media {
         margin-right: 50px;
     }
-    .progress-section,
     .skill-content{
-        margin: 0 auto;
+        text-align: center;
+    }
+    .skill-content p{
+        text-align: justify;
+        padding: 35px;
+        margin: -80px 40px 0 0;
     }
     .icon,
     .icon:hover{
         font-size: 20px;
         text-decoration: none;
+    }
+    .progress-section{
+        margin: 0 auto;
+    }
+    .progress-section .progress{
+        width: 300px;
     }
     
 }
