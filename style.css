@@ -145,7 +145,6 @@ nav a:hover{
     }
     .about-section{
         flex-direction: column-reverse;
-        margin-top: 500px;
     }
     .about-content{
         text-align: center;
