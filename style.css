@@ -49,8 +49,6 @@ nav a:hover{
     height: 500px;
     background-image: url(images/circle-logo.webp);
    background-repeat: no-repeat;
-   /* background-position: center -170px;
-   background-size: 320px ;  */
    background-position: center;
    background-size: 400px;
    
@@ -66,6 +64,13 @@ nav a:hover{
 .social-media i{ 
     padding-right: 20px;
     font-size: 40px;
+}
+.resume-btn{
+    padding: 2px 5px 0 5px;
+    background-color:rgba(0, 0, 255, 0.514);
+    font-weight: 400;
+    border-radius: 10px;  
+    color: #fff;  
 }
 
 /*----------- home section end ----------*/
@@ -175,11 +180,7 @@ nav a:hover{
         padding: 35px;
         margin: -80px 40px 0 0;
     }
-    .icon,
-    .icon:hover{
-        font-size: 20px;
-        text-decoration: none;
-    }
+  
     .progress-section{
         margin: 0 auto;
     }
@@ -235,8 +236,9 @@ nav a:hover{
     color: #efefef;
 }
   
-.nav  .nav-links  a:hover {
+.nav  .nav-links a:not(:last-child):hover {
     background-color: rgba(0, 0, 0, 0.3);
+   
 }
   
 .nav  #nav-check {
