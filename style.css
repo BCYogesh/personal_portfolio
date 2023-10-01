@@ -51,6 +51,7 @@ nav a:hover{
    background-repeat: no-repeat;
    background-position: center;
    background-size: 400px;
+   margin-top: 100px;
    
 }
 .profile img{
@@ -238,6 +239,7 @@ nav a:hover{
   
 .nav  .nav-links a:not(:last-child):hover {
     background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
    
 }
   
